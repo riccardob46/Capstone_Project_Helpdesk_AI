@@ -1,0 +1,22 @@
+# Fase 1 - Analisi dei dati e modelli classici
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+seaborn>=0.13
+scikit-learn>=1.4
+scipy
+joblib
+ipykernel
+
+# Fase 2 - Deep learning
+# tensorflow
+
+# Fase 3 - Generative AI e RAG
+# openai
+# langchain
+# chromadb
+# pypdf
+# python-dotenv
+
+# Fase 4 - Applicazione
+# streamlit
