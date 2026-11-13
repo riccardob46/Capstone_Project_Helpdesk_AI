@@ -9,7 +9,7 @@ joblib
 ipykernel
 
 # Fase 2 - Deep learning
-# tensorflow
+tensorflow
 
 # Fase 3 - Generative AI e RAG
 # openai
