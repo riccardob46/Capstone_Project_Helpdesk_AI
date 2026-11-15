@@ -17,6 +17,10 @@ data/processed/*
 models/*
 !models/.gitkeep
 
+## Knowledge base: documenti scaricati e testo estratto (non ridistribuibili)
+knowledge_base/raw/
+knowledge_base/chunks.jsonl
+
 # Segreti
 .env
 

@@ -12,10 +12,11 @@ ipykernel
 tensorflow
 
 # Fase 3 - Generative AI e RAG
+requests
 # openai
-# langchain
+langchain-text-splitters
 # chromadb
-# pypdf
+pypdf[crypto]
 # python-dotenv
 
 # Fase 4 - Applicazione

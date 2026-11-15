@@ -1,0 +1,40 @@
+id,editore,tipo,categoria,periferica,unita_estratte,unita_tenute,chunk
+ms_cannot-use-mfa-signin-lose-phone,Microsoft,markdown,Access,,3,3,3
+ms_could-not-verify-account-reset-pwd,Microsoft,markdown,Access,,4,3,3
+ms_separate-pwds-required-computer-work-account,Microsoft,markdown,Access,,4,4,4
+ms_error-code-aadsts50057-user-account-is-disabled,Microsoft,markdown,Access,,5,4,4
+ms_slow-logon-with-blank-screen,Microsoft,markdown,Access,,4,4,4
+ms_windows-hello-errors-during-pin-creation-in-windows-10,Microsoft,markdown,Access,,5,3,12
+ms_integrated-unblock-screen-not-displayed-smart-card-pin-blocked,Microsoft,markdown,Access,,1,1,1
+ms_troubleshoot-sign-in-issues,Microsoft,markdown,Access,,12,10,13
+ms_wireless-network-connectivity-issues-troubleshooting,Microsoft,markdown,Hardware,,13,12,37
+ms_connect-to-wireless-network,Microsoft,markdown,Hardware,,3,2,3
+ms_wireless-devices-disabled-airplane-mode-off,Microsoft,markdown,Hardware,,4,4,4
+ms_error-when-establishing-vpn-connection,Microsoft,markdown,Hardware,,5,5,5
+ms_network-connectivity-lost,Microsoft,markdown,Hardware,,5,5,5
+ms_windows-based-computer-freeze-troubleshooting,Microsoft,markdown,Hardware,,13,13,22
+ms_cannot-scan-device-connected-usb,Microsoft,markdown,Hardware,,2,2,2
+ms_two-sided-printing-cannot-be-set,Microsoft,markdown,Hardware,,9,7,7
+ms_code-31-device-manager-usbccid-smartcard-reader-problem,Microsoft,markdown,Hardware,,4,3,3
+ms_cannot-access-shared-folder-file-explorer,Microsoft,markdown,Storage,,8,5,9
+ms_mapped-drive-connection-to-network-share-lost,Microsoft,markdown,Storage,,8,8,9
+ms_mapped-network-drive-fail-reconnect,Microsoft,markdown,Storage,,6,6,11
+ms_access-denied-access-smb-file-share,Microsoft,markdown,Storage,,12,11,11
+ms_access-denied-error-appears-permissions-are-correct,Microsoft,markdown,Storage,,6,5,5
+ms_troubleshooting-slow-file-copying-in-windows,Microsoft,markdown,Storage,,6,6,9
+ms_troubleshoot-windows-update-issues,Microsoft,markdown,Administrative rights,,12,9,13
+ms_common-windows-update-errors,Microsoft,markdown,Administrative rights,,38,37,38
+ms_0x80070bc9-error-while-installing-msi-package,Microsoft,markdown,Administrative rights,,5,5,6
+ms_edge-crashes-fails-to-launch,Microsoft,markdown,Administrative rights,,9,7,7
+ingenico_ipp320,Ingenico,pdf,Hardware,POS,2,2,22
+nexi_pos_ingenico_it,Nexi,pdf,Hardware,POS,8,8,19
+pax_a920_it,PostFinance,pdf,Hardware,POS,6,6,18
+wacom_stu,Wacom,pdf,Hardware,pad di firma,6,6,13
+namirial_nt10,Namirial,pdf,Hardware,pad di firma,9,8,9
+olivetti_mb2,Olivetti,pdf,Hardware,stampante di sportello,28,19,32
+kyocera_ma5500ifx,Kyocera,pdf,Hardware,stampante di rete,579,550,939
+epson_wfm5899,Epson,pdf,Hardware,stampante di rete,415,390,683
+lexmark_mx431,Lexmark,pdf,Hardware,stampante di rete,289,273,461
+zebra_zd421,Zebra,pdf,Hardware,stampante di etichette,352,322,501
+viewsonic_va2432,ViewSonic,pdf,Hardware,monitor,44,39,66
+jetscan_ifx_i100,Cummins Allison,pdf,Hardware,selezionatrice di banconote,32,31,52
