@@ -1,0 +1,37 @@
+id,richiesta_it,richiesta_en,categoria_attesa,dispositivo_atteso,fonti_attese
+R01,"La stampante non acquisisce automaticamente i dati dai fogli scansionati","The printer doesn't automatically capture the data from the scanned sheets",Hardware,stampante di sportello,olivetti_mb2
+R02,"Si è incastrato un foglio dentro la stampante di sportello","A sheet got stuck inside the counter printer",Hardware,stampante di sportello,olivetti_mb2
+R03,"La stampa sui libretti è sbiadita e non si legge quasi più","The printing on the passbooks is faded and barely readable anymore",Hardware,stampante di sportello,olivetti_mb2
+R04,"Il POS non è collegato, dà errore di connessione","The POS is not connected, it gives a connection error",Hardware,POS,nexi_pos_ingenico_it|ingenico_ipp320|pax_a920_it
+R05,"Il POS non stampa lo scontrino, esce il foglio bianco","The POS doesn't print the receipt, the paper comes out blank",Hardware,POS,nexi_pos_ingenico_it|pax_a920_it
+R06,"Il cliente inserisce la carta ma il POS non la legge","The customer inserts the card but the POS doesn't read it",Hardware,POS,ingenico_ipp320|nexi_pos_ingenico_it|pax_a920_it
+R07,"Il pad per la firma ha lo schermo spento","The signature pad screen is off",Hardware,pad di firma,wacom_stu|namirial_nt10
+R08,"Il cliente firma sul pad ma la firma non compare","The customer signs on the pad but the signature doesn't appear",Hardware,pad di firma,wacom_stu|namirial_nt10
+R09,"Il PC non riconosce il pad collegato con USB","The PC doesn't recognize the pad connected via USB",Hardware,pad di firma,namirial_nt10|wacom_stu
+R10,"La contabanconote si blocca e dice che il sensore è sporco","The banknote counter stops and says the sensor is dirty",Hardware,selezionatrice di banconote,jetscan_ifx_i100
+R11,"Le banconote si inceppano nella contabanconote","The banknotes get jammed in the banknote counter",Hardware,selezionatrice di banconote,jetscan_ifx_i100
+R12,"La stampante delle etichette lampeggia con luce rossa e non stampa","The label printer is flashing with a red light and won't print",Hardware,stampante di etichette,zebra_zd421
+R13,"Le etichette escono storte o ne salta una sì e una no","The labels come out crooked or every other one is skipped",Hardware,stampante di etichette,zebra_zd421
+R14,"Il monitor dice ""nessun segnale""","The monitor says ""no signal""",Hardware,monitor,viewsonic_va2432
+R15,"Lo schermo è troppo scuro anche con la luminosità al massimo","The screen is too dark even with the brightness at maximum",Hardware,monitor,viewsonic_va2432
+R16,"La stampante multifunzione Kyocera ha la carta inceppata","The Kyocera multifunction printer has a paper jam",Hardware,stampante di rete,kyocera_ma5500ifx
+R17,"La stampante Epson stampa con delle righe sul foglio","The Epson printer prints with lines on the paper",Hardware,stampante di rete,epson_wfm5899
+R18,"La stampante Lexmark dice di cambiare il toner ma l'ho appena cambiato","The Lexmark printer says to change the toner but I just changed it",Hardware,stampante di rete,lexmark_mx431
+R19,"Il computer non vede più la stampante di rete","The computer can no longer see the network printer",Hardware,stampante di rete,kyocera_ma5500ifx|epson_wfm5899|lexmark_mx431
+R20,"Non riesco a fare la scansione su cartella dalla multifunzione","I can't scan to a folder from the multifunction printer",Hardware,stampante di rete,kyocera_ma5500ifx|epson_wfm5899|lexmark_mx431
+R21,"Il wifi non si connette","The Wi-Fi won't connect",Hardware,computer,ms_wireless-network-connectivity-issues-troubleshooting|ms_connect-to-wireless-network|ms_wireless-devices-disabled-airplane-mode-off|ms_network-connectivity-lost
+R22,"La VPN dà errore quando mi collego","The VPN gives an error when I connect",Hardware,computer,ms_error-when-establishing-vpn-connection
+R23,"Il computer si blocca e devo spegnerlo tenendo premuto il tasto","The computer freezes and I have to turn it off by holding down the button",Hardware,computer,ms_windows-based-computer-freeze-troubleshooting
+R24,"Il lettore di smart card non funziona più","The smart card reader doesn't work anymore",Hardware,computer,ms_code-31-device-manager-usbccid-smartcard-reader-problem
+R25,"Ho sbagliato il PIN della smart card troppe volte e ora è bloccata","I entered the smart card PIN wrong too many times and now it's blocked",Access,computer,ms_integrated-unblock-screen-not-displayed-smart-card-pin-blocked
+R26,"Non riesco a impostare il PIN di Windows Hello, dà errore","I can't set up the Windows Hello PIN, it gives an error",Access,computer,ms_windows-hello-errors-during-pin-creation-in-windows-10
+R27,"Ho cambiato telefono e non mi arriva più il codice di sicurezza per entrare","I changed my phone and I no longer receive the security code to sign in",Access,computer,ms_cannot-use-mfa-signin-lose-phone
+R28,"Quando provo ad accedere mi dice che l'account è disabilitato","When I try to sign in it says the account is disabled",Access,computer,ms_error-code-aadsts50057-user-account-is-disabled
+R29,"Dopo l'accesso lo schermo resta nero per diversi minuti","After signing in the screen stays black for several minutes",Access,computer,ms_slow-logon-with-blank-screen
+R30,"Non riesco ad aprire la cartella condivisa dell'ufficio","I can't open the office shared folder",Storage,computer,ms_cannot-access-shared-folder-file-explorer|ms_access-denied-access-smb-file-share
+R31,"L'unità di rete ha la X rossa e non si apre","The network drive has a red X and won't open",Storage,computer,ms_mapped-drive-connection-to-network-share-lost|ms_mapped-network-drive-fail-reconnect
+R32,"Accedere ai file sul server richiede molto tempo, è lentissimo","Accessing files on the server takes a long time, it's extremely slow",Storage,computer,ms_troubleshooting-slow-file-copying-in-windows
+R33,"Mi dà accesso negato sulla cartella anche se ho i permessi","It gives me access denied on the folder even though I have the permissions",Storage,computer,ms_access-denied-error-appears-permissions-are-correct|ms_access-denied-access-smb-file-share
+R34,"Windows Update dà errore e non installa gli aggiornamenti","Windows Update gives an error and doesn't install the updates",Administrative rights,computer,ms_common-windows-update-errors|ms_troubleshoot-windows-update-issues
+R35,"Il browser Edge si chiude da solo appena lo apro","The Edge browser closes by itself as soon as I open it",Administrative rights,computer,ms_edge-crashes-fails-to-launch
+R36,"Non riesco a installare un programma, esce l'errore 0x80070bc9","I can't install a program, error 0x80070bc9 comes up",Administrative rights,computer,ms_0x80070bc9-error-while-installing-msi-package

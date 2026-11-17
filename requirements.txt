@@ -13,11 +13,11 @@ tensorflow
 
 # Fase 3 - Generative AI e RAG
 requests
-# openai
+openai
 langchain-text-splitters
-# chromadb
+chromadb
 pypdf[crypto]
-# python-dotenv
+python-dotenv
 
 # Fase 4 - Applicazione
 # streamlit

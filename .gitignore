@@ -20,6 +20,9 @@ models/*
 ## Knowledge base: documenti scaricati e testo estratto (non ridistribuibili)
 knowledge_base/raw/
 knowledge_base/chunks.jsonl
+knowledge_base/chroma*/
+knowledge_base/verifica_risultati.csv
+knowledge_base/embeddings_richieste.npz
 
 # Segreti
 .env
