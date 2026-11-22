@@ -35,3 +35,6 @@ knowledge_base/risposte_chatbot.csv
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Test
+.pytest_cache/
