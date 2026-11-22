@@ -23,6 +23,10 @@ knowledge_base/chunks.jsonl
 knowledge_base/chroma*/
 knowledge_base/verifica_risultati.csv
 knowledge_base/embeddings_richieste.npz
+knowledge_base/cache_llm.jsonl
+knowledge_base/cache_embeddings.npz
+knowledge_base/verifica_hyde.csv
+knowledge_base/risposte_chatbot.csv
 
 # Segreti
 .env

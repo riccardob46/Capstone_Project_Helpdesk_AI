@@ -1,0 +1,60 @@
+id,variante,esito,intensita,nota
+R01,H. HyDE,peggiore,lieve,"esce un estratto sulla pulizia dei vetri dello scanner, entra una pagina sugli inceppamenti"
+R03,H. HyDE,migliore,netto,entrano le quattro pagine sulla sostituzione del nastro (pagine 17-20)
+R04,H. HyDE,uguale,,"restano le pagine su 'Mancato collegamento'; i nuovi estratti (banda magnetica, sicurezza) non sono pertinenti"
+R05,H. HyDE,uguale,,resta la pagina sulle stampe irregolari; entra l'inserimento del rotolo di un altro modello di POS
+R06,H. HyDE,migliore,lieve,"entra come inserire la carta con il chip, al posto del testo delle schermate"
+R07,H. HyDE,migliore,lieve,"entra il collegamento corretto del pad (alimentazione, USB) al posto delle chiavi di registro Wacom"
+R08,H. HyDE,uguale,,"entra l'impostazione del display esteso, esce il collegamento del pad"
+R10,H. HyDE,peggiore,lieve,"esce la condizione 'documento che blocca il sensore', entra un elenco di codici delle banconote"
+R11,H. HyDE,migliore,lieve,"esce un elenco di codici, entrano gli errori di alimentazione; la procedura per l'inceppamento sale al 3° posto"
+R12,H. HyDE,uguale,,"esce la tabella delle spie, entrano coperchio aperto e carta esaurita: cambiano le cause coperte"
+R13,H. HyDE,migliore,lieve,"esce una tabella sul contrasto di stampa, entra il cambio del rotolo con la calibrazione"
+R15,H. HyDE,uguale,,consigli generici in entrambi
+R16,H. HyDE,peggiore,netto,al primo posto un estratto Lexmark per una stampante Kyocera
+R17,H. HyDE,migliore,lieve,entra il controllo degli ugelli con la pulizia della testina
+R18,H. HyDE,peggiore,netto,"tre estratti Kyocera, anche al primo posto, per una stampante Lexmark"
+R19,H. HyDE,uguale,,"entra la verifica di router e stampe in pausa, ma anche un estratto che suggerisce di disattivare firewall e antivirus"
+R20,H. HyDE,migliore,lieve,entrano i primi passi della scansione su PC (Kyocera) e i codici di errore Epson sulla cartella di destinazione
+R21,H. HyDE,migliore,netto,"al posto delle tracce di log, la tabella dei sintomi e la panoramica dell'articolo (ancora per tecnici)"
+R23,H. HyDE,migliore,lieve,"meno chiavi di registro; entrano le domande per identificare il problema, utili per il ticket"
+R24,H. HyDE,uguale,,articolo sul Code 31 in entrambi; cambia un estratto non pertinente
+R25,H. HyDE,uguale,,cambia solo un estratto non pertinente
+R26,H. HyDE,migliore,netto,"entrano i passi generali che l'utente può provare (riprovare, uscire e rientrare, riavviare)"
+R28,H. HyDE,uguale,,cambia solo un estratto non pertinente
+R29,H. HyDE,uguale,,cambia solo un estratto non pertinente
+R30,H. HyDE,uguale,,"esce l'estratto che propone SMB 1.0, entra la configurazione dell'indirizzo IP (per tecnici)"
+R31,H. HyDE,uguale,,"sempre soluzioni per tecnici (script, registro); entra la causa"
+R32,H. HyDE,peggiore,lieve,"esce la prova con il percorso UNC, entra una modifica al registro"
+R33,H. HyDE,uguale,,sempre soluzioni per tecnici; entra la causa legata alla crittografia dei file
+R34,H. HyDE,migliore,lieve,"codici di errore più comuni (connessione, riavvio) e l'installazione manuale dal catalogo"
+R35,H. HyDE,peggiore,lieve,"esce 'disattivare l'accelerazione grafica', entra il riassunto dell'articolo"
+R36,H. HyDE,uguale,,"resta la soluzione; esce la causa, entra un secondo estratto sui sintomi"
+R01,T+H. traduzione + HyDE,peggiore,lieve,"esce un estratto sulla pulizia dei vetri dello scanner, entra una pagina sugli inceppamenti"
+R03,T+H. traduzione + HyDE,migliore,netto,"entra la pagina sulla sostituzione del nastro, ma solo i passi 4-6 (pagina 19)"
+R04,T+H. traduzione + HyDE,uguale,,"esce il testo delle schermate, entra lo storno di un pagamento: non pertinente"
+R05,T+H. traduzione + HyDE,uguale,,entrano 'il terminale si spegne' e la banda magnetica: non pertinenti
+R06,T+H. traduzione + HyDE,uguale,,"esce il testo delle schermate, entra l'introduzione dei problemi frequenti"
+R07,T+H. traduzione + HyDE,migliore,lieve,"entra il collegamento corretto del pad (alimentazione, USB) al posto delle chiavi di registro Wacom"
+R08,T+H. traduzione + HyDE,migliore,lieve,entra l'impostazione del display esteso al posto dell'orientamento dello schermo
+R10,T+H. traduzione + HyDE,peggiore,lieve,"esce la condizione 'documento che blocca il sensore', entra un elenco di codici delle banconote"
+R11,T+H. traduzione + HyDE,migliore,lieve,"esce un elenco di codici, entrano gli errori di alimentazione; la procedura per l'inceppamento sale al 2° posto"
+R12,T+H. traduzione + HyDE,migliore,lieve,resta la tabella delle spie e in più entrano coperchio aperto e carta esaurita
+R13,T+H. traduzione + HyDE,migliore,lieve,"esce una tabella sul contrasto di stampa, entra il cambio del rotolo con la calibrazione"
+R14,T+H. traduzione + HyDE,uguale,,"esce un avviso di sicurezza, entra il collegamento dell'alimentazione"
+R15,T+H. traduzione + HyDE,uguale,,consigli generici in entrambi
+R17,T+H. traduzione + HyDE,migliore,lieve,entra il controllo degli ugelli con la pulizia della testina
+R18,T+H. traduzione + HyDE,uguale,,"esce 'inserire la cartuccia finché scatta', entra il messaggio sulla cartuccia ricaricata"
+R19,T+H. traduzione + HyDE,migliore,lieve,"entra la verifica di router e stampe in pausa (Epson, pagina 350)"
+R20,T+H. traduzione + HyDE,migliore,lieve,entrano i primi passi della scansione su PC (Kyocera) e i codici di errore Epson sulla cartella di destinazione
+R21,T+H. traduzione + HyDE,migliore,netto,"al posto delle tracce di log, la tabella dei sintomi e la panoramica dell'articolo (ancora per tecnici)"
+R23,T+H. traduzione + HyDE,migliore,lieve,"meno chiavi di registro; entrano le domande per identificare il problema, utili per il ticket"
+R25,T+H. traduzione + HyDE,uguale,,cambiano le righe della tabella dei codici di Windows Hello
+R26,T+H. traduzione + HyDE,migliore,netto,"entrano i passi generali che l'utente può provare (riprovare, uscire e rientrare, riavviare)"
+R29,T+H. traduzione + HyDE,uguale,,cambia solo un estratto non pertinente
+R30,T+H. traduzione + HyDE,uguale,,cambia un estratto per tecnici (configurazione dell'indirizzo IP)
+R31,T+H. traduzione + HyDE,uguale,,"sempre soluzioni per tecnici (script, registro)"
+R32,T+H. traduzione + HyDE,peggiore,lieve,"esce la prova con il percorso UNC, entra una modifica al registro"
+R34,T+H. traduzione + HyDE,uguale,,cambiano le righe della tabella dei codici di errore
+R35,T+H. traduzione + HyDE,peggiore,lieve,"esce 'disattivare l'accelerazione grafica', entra il riassunto dell'articolo"
+R36,T+H. traduzione + HyDE,uguale,,"resta la soluzione; esce la causa, entra un secondo estratto sui sintomi"
