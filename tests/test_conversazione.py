@@ -109,6 +109,7 @@ def test_dettagli_una_volta_sola_poi_ticket():
                    analisi(), hyde(), risposta("chiedi_dettagli"), ticket())
     passo = a.nuova_richiesta("Il POS dà errore")
     assert passo.tipo == "domanda_dettagli" and passo.opzioni == []      # l'utente risponde scrivendo
+    assert passo.fonti == []                                             # una domanda non ha fonti
 
     passo = a.aggiungi_dettagli("Il codice è E05")
     # La seconda analisi riceve la domanda dell'assistente e la risposta dell'utente

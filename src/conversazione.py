@@ -148,7 +148,8 @@ class Assistente:
             return self._passo("istruzioni", self.risposta.messaggio, opzioni=[RISOLTO, NON_RISOLTO], fonti=fonti)
         if esito == "chiedi_dettagli" and len(self.dettagli) < MAX_DOMANDE_DETTAGLI:
             self.stato = "attesa_dettagli"
-            return self._passo("domanda_dettagli", self.risposta.messaggio, fonti=fonti)
+            # Nessuna fonte con una domanda: le fonti accompagnano le istruzioni, non le domande
+            return self._passo("domanda_dettagli", self.risposta.messaggio)
         if esito == "chiedi_dettagli":
             return self._apri_ticket("Con le informazioni che ho non riesco a guidarti oltre: "
                                      "apro un ticket per il supporto tecnico.")

@@ -63,6 +63,8 @@ def conversazione(assistente, richiesta):
         mostra(passo)
     print(f"\n({len(assistente.consumo)} chiamate all'LLM, attesa {attesa:.1f} s, "
           f"circa {costo_dollari(assistente.consumo):.5f} dollari)")
+    print(f"(tempi delle chiamate all'LLM: "
+          + ", ".join(f"{u.compito} {u.secondi:.1f} s" for u in assistente.consumo) + ")")
 
 def main():
     assistente = Assistente()
