@@ -20,7 +20,7 @@ pypdf[crypto]
 python-dotenv
 
 # Fase 4 - Applicazione
-# streamlit
+streamlit
 
 # Test
 pytest
